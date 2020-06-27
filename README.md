@@ -17,13 +17,15 @@ Packages:
 ## How to run
 
 In serial:
-  ```julia 
-  COMETserial(corMat, delta, sigma)
+  ```julia
+  julia>include("COMETserial.jl")
+  julia>COMETserial(corMat, delta, sigma)
   ```
 
 In parallel
   ```julia 
-  COMETparallel(corMat, delta, sigma)
+  julia>include("COMETparallel.jl")
+  julia>COMETparallel(corMat, delta, sigma)
   ```
 
 Input:
