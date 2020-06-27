@@ -18,13 +18,13 @@ Packages:
 
 ## How to run
 
-In serial: all steps are executed in serial 
+**In serial:** all steps are executed in serial 
   ```julia
   julia>include("COMETserial.jl")
   julia>COMETserial(corMat, delta, sigma)
   ```
 
-In parallel: the multipole exploration step from candidates is parallelized such that each processor iterates through all subsets of a candidate. For a set of 100 timeseries, the parallel code can provide a speed-up between 10x to 100x from the serial code.
+**In parallel:** the multipole exploration step from candidates is parallelized such that each processor iterates through all subsets of a candidate. For a set of 100 timeseries, the parallel code can provide a speed-up between 10x to 100x from the serial code.
   ```julia 
   julia>include("COMETparallel.jl")
   julia>COMETparallel(corMat, delta, sigma)
