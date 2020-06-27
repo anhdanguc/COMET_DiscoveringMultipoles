@@ -31,9 +31,9 @@ Packages:
   ```
 
 Input:
-  - corMat: pairwise correlation matrix as a 2D array
-  - delta: the dependence threshold
-  - sigma: the gain threshold
+  - **corMat**: pairwise correlation matrix as a 2D array
+  - **delta**: the dependence threshold
+  - **sigma**: the gain threshold
 
 Return:
   - Vector of multipoles is a structure as defined below
