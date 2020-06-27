@@ -9,7 +9,7 @@ For a given set of timeseries, a **multipole** is defined as a subset of two or 
 ## Requirements
 Julia 1.0 [2]
 
-Dependency:
+Packages:
 - Combinatorics
 - LightGraphs
 - LinearAlgebra
